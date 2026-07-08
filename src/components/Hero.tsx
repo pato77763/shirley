@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Sparkles, Award, ShieldCheck, Heart, Calendar } from 'lucide-react';
 import { SALON_INFO } from '../data';
+import heroImg from '../assets/images/regenerated_image_1783360055218.png';
 
 export default function Hero() {
   const stats = [
@@ -108,7 +109,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-t from-luxury-black via-luxury-black/10 to-transparent z-10 opacity-70 group-hover:opacity-50 transition-all duration-500" />
               
               <img
-                src="/src/assets/images/regenerated_image_1783360055218.png"
+                src={heroImg}
                 alt="Shirley Omena Miss Bella Beleza"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transform scale-100 group-hover:scale-105 transition-transform duration-700 ease-out"

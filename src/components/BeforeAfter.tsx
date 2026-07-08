@@ -4,15 +4,22 @@ import { SALON_INFO } from '../data';
 import video1 from '../assets/videos/resultado_movimento_1.mp4';
 import video2 from '../assets/videos/resultado_movimento_2.mp4';
 
+import ba1Before from '../assets/images/regenerated_image_1783365880347.png';
+import ba1After from '../assets/images/before_after_hair_1783208368688.jpg';
+import ba2Before from '../assets/images/regenerated_image_1783364604150.jpg';
+import ba2After from '../assets/images/regenerated_image_1783364605238.jpg';
+import ba3Before from '../assets/images/regenerated_image_1783364606578.jpg';
+import ba3After from '../assets/images/hero_shirley_omena_1783208357327.jpg';
+
 export default function BeforeAfter() {
   const imagesGallery = [
     {
       id: 'img1',
       title: 'Liso Orgânico & Selagem',
       desc: 'Alinhamento 100% orgânico livre de formol, proporcionando brilho tridimensional e balanço natural.',
-      beforeUrl: '/src/assets/images/regenerated_image_1783365880347.png',
+      beforeUrl: ba1Before,
       beforeLabel: 'Frizz & Opacidade',
-      afterUrl: '/src/assets/images/before_after_hair_1783208368688.jpg',
+      afterUrl: ba1After,
       afterLabel: 'Liso Espelhado',
       isGrayscaleBefore: false
     },
@@ -20,9 +27,9 @@ export default function BeforeAfter() {
       id: 'img2',
       title: 'Alongamento Mega Hair Micropele',
       desc: 'Preenchimento de pontas ralas e alongamento invisível de altíssimo padrão com cabelo humano premium.',
-      beforeUrl: '/src/assets/images/regenerated_image_1783364604150.jpg',
+      beforeUrl: ba2Before,
       beforeLabel: 'Pontas Ralas',
-      afterUrl: '/src/assets/images/regenerated_image_1783364605238.jpg',
+      afterUrl: ba2After,
       afterLabel: 'Preenchimento & Volume',
       isGrayscaleBefore: false
     },
@@ -30,9 +37,9 @@ export default function BeforeAfter() {
       id: 'img3',
       title: 'Cronograma Capilar Deep Therapy',
       desc: 'Reconstrução lipídica molecular intensiva, devolvendo massa e resistência aos fios pós-química.',
-      beforeUrl: '/src/assets/images/regenerated_image_1783364606578.jpg',
+      beforeUrl: ba3Before,
       beforeLabel: 'Córtex Elástico',
-      afterUrl: '/src/assets/images/hero_shirley_omena_1783208357327.jpg',
+      afterUrl: ba3After,
       afterLabel: 'Fio Encorpado & Sedoso',
       isGrayscaleBefore: false
     }

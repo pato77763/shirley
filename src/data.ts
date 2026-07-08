@@ -1,4 +1,6 @@
 import { Service, Testimonial, BeforeAfterPair } from './types';
+import aboutAuthorImage from './assets/images/shirley_omena_stylist_1783208380452.jpg';
+import beforeAfterHair from './assets/images/before_after_hair_1783208368688.jpg';
 
 export const SALON_INFO = {
   name: 'Shirley Omena',
@@ -11,7 +13,7 @@ export const SALON_INFO = {
   address: 'Mata do Rolo, Rio Largo - AL, Brasil',
   schedule: 'Terça a Sábado: 09h às 19h',
   aboutText: 'Com mais de 20 anos de excelência e autoridade na área da beleza, Shirley Omena comanda o Miss Bella, transformando a autoestima de centenas de mulheres em Rio Largo e região. Nossa missão vai além de cortar ou pintar: realizamos verdadeiras terapias de beleza com atendimento exclusivo, produtos premium e técnicas modernas de padrão internacional.',
-  aboutAuthorImage: '/src/assets/images/shirley_omena_stylist_1783208380452.jpg'
+  aboutAuthorImage: aboutAuthorImage
 };
 
 export const SERVICES: Service[] = [
@@ -137,8 +139,8 @@ export const BEFORE_AFTER_GALLERY: BeforeAfterPair[] = [
     id: 'ba1',
     title: 'Alinhamento Orgânico & Selagem',
     description: 'Transformação profunda eliminando o frizz e adicionando brilho tridimensional.',
-    beforeUrl: '/src/assets/images/before_after_hair_1783208368688.jpg',
-    afterUrl: '/src/assets/images/before_after_hair_1783208368688.jpg' // We will display the same high quality generated comparison or split-pane slider!
+    beforeUrl: beforeAfterHair,
+    afterUrl: beforeAfterHair // We will display the same high quality generated comparison or split-pane slider!
   }
 ];
 
