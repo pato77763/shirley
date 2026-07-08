@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Outfit", sans-serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+
+  --color-gold-50: #FAF7F0;
+  --color-gold-100: #F4ECCF;
+  --color-gold-200: #E6D8A2;
+  --color-gold-300: #D4BE6E;
+  --color-gold-400: #C2A13E;
+  --color-gold-500: #AA8B24;
+  --color-gold-600: #886D1A;
+  --color-gold-700: #665012;
+  --color-gold-800: #4B3A0D;
+  --color-gold-900: #332608;
+  --color-gold-950: #1C1504;
+  
+  --color-luxury-black: #0D0D0D;
+  --color-luxury-charcoal: #151515;
+  --color-luxury-gray: #1E1E1E;
+  --color-luxury-cream: #FAF9F6;
+  --color-luxury-sand: #F5F2EB;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-luxury-black);
+    color: #F3F4F6;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom styles for animations or slider */
+.before-after-container {
+  position: relative;
+  user-select: none;
+}
+
+/* Smooth transitions */
+.transition-luxury {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
