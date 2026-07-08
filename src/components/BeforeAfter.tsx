@@ -3,6 +3,12 @@ import { Sparkles, Video, Image as ImageIcon, Play, CheckCircle } from 'lucide-r
 import { SALON_INFO } from '../data';
 import video1 from '../assets/videos/resultado_movimento_1.mp4';
 import video2 from '../assets/videos/resultado_movimento_2.mp4';
+import img1783365880347 from '../assets/images/regenerated_image_1783365880347.png';
+import beforeAfterHairImg from '../assets/images/before_after_hair_1783208368688.jpg';
+import img1783364604150 from '../assets/images/regenerated_image_1783364604150.jpg';
+import img1783364605238 from '../assets/images/regenerated_image_1783364605238.jpg';
+import img1783364606578 from '../assets/images/regenerated_image_1783364606578.jpg';
+import heroShirleyOmenaImg from '../assets/images/hero_shirley_omena_1783208357327.jpg';
 
 export default function BeforeAfter() {
   const imagesGallery = [
@@ -10,9 +16,9 @@ export default function BeforeAfter() {
       id: 'img1',
       title: 'Liso Orgânico & Selagem',
       desc: 'Alinhamento 100% orgânico livre de formol, proporcionando brilho tridimensional e balanço natural.',
-      beforeUrl: '/src/assets/images/regenerated_image_1783365880347.png',
+      beforeUrl: img1783365880347,
       beforeLabel: 'Frizz & Opacidade',
-      afterUrl: '/src/assets/images/before_after_hair_1783208368688.jpg',
+      afterUrl: beforeAfterHairImg,
       afterLabel: 'Liso Espelhado',
       isGrayscaleBefore: false
     },
@@ -20,9 +26,9 @@ export default function BeforeAfter() {
       id: 'img2',
       title: 'Alongamento Mega Hair Micropele',
       desc: 'Preenchimento de pontas ralas e alongamento invisível de altíssimo padrão com cabelo humano premium.',
-      beforeUrl: '/src/assets/images/regenerated_image_1783364604150.jpg',
+      beforeUrl: img1783364604150,
       beforeLabel: 'Pontas Ralas',
-      afterUrl: '/src/assets/images/regenerated_image_1783364605238.jpg',
+      afterUrl: img1783364605238,
       afterLabel: 'Preenchimento & Volume',
       isGrayscaleBefore: false
     },
@@ -30,9 +36,9 @@ export default function BeforeAfter() {
       id: 'img3',
       title: 'Cronograma Capilar Deep Therapy',
       desc: 'Reconstrução lipídica molecular intensiva, devolvendo massa e resistência aos fios pós-química.',
-      beforeUrl: '/src/assets/images/regenerated_image_1783364606578.jpg',
+      beforeUrl: img1783364606578,
       beforeLabel: 'Córtex Elástico',
-      afterUrl: '/src/assets/images/hero_shirley_omena_1783208357327.jpg',
+      afterUrl: heroShirleyOmenaImg,
       afterLabel: 'Fio Encorpado & Sedoso',
       isGrayscaleBefore: false
     }

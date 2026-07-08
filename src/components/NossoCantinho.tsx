@@ -1,20 +1,23 @@
 import { motion } from 'motion/react';
 import nossoCantinhoVideo from '../assets/videos/nosso_cantinho-1.mp4';
+import ambienteImg from '../assets/images/regenerated_image_1783474182264.jpg';
+import relaxamentoImg from '../assets/images/regenerated_image_1783474184020.jpg';
+import cuidadoImg from '../assets/images/regenerated_image_1783474184825.jpg';
 
 export default function NossoCantinho() {
   const images = [
     {
-      url: '/src/assets/images/regenerated_image_1783474182264.jpg',
+      url: ambienteImg,
       alt: 'Interior sofisticado do Salão Miss Bella',
       title: 'Ambiente Acolhedor'
     },
     {
-      url: '/src/assets/images/regenerated_image_1783474184020.jpg',
+      url: relaxamentoImg,
       alt: 'Área de lavatório e bem-estar premium',
       title: 'Espaço de Relaxamento'
     },
     {
-      url: '/src/assets/images/regenerated_image_1783474184825.jpg',
+      url: cuidadoImg,
       alt: 'Detalhes e produtos de padrão internacional',
       title: 'Cuidado Exclusivo'
     }
