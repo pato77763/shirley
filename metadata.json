@@ -1,0 +1,6 @@
+{
+  "name": "Shirley Omena Miss Bella",
+  "description": "Landing page de alta conversão para o salão de beleza Shirley Omena Miss Bella. Destaque para tratamentos avançados, mega hair, noivas e agendamento rápido via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
